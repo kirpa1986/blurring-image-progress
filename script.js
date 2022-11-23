@@ -7,7 +7,7 @@ fetch('https://api.unsplash.com/photos/random?client_id=W4Ve29x57Bt3IJ6C7M8k1ywi
     bg.style.background = `url("${res.urls.regular}") no-repeat center center/cover`
 })
 
-let initialBlur = 70;
+let initialBlur = 30;
 let initialOpacity = 1;
 const opacityStep = parseFloat(initialOpacity/100);
 const blurStep = parseFloat(initialBlur/100);
